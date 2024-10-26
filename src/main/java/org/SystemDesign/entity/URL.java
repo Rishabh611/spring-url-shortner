@@ -1,26 +1,21 @@
-package org.SystemDesign.model;
+package org.SystemDesign.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
 @Entity
-@Data
-@NoArgsConstructor
 public class URL {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
+    @Column(name = "original_url", nullable = false, length = 2048)
     private String originalUrl;
+    @Column(name = "short_url", unique = true, nullable = false, length = 10)
     private String shortUrl;
-    private LocalDateTime createdAt;
-    private LocalDateTime expiresAt;
 
     public long getId() {
         return id;
@@ -46,19 +41,4 @@ public class URL {
         this.shortUrl = shortUrl;
     }
 
-    public LocalDateTime getCreatedAt() {
-        return createdAt;
-    }
-
-    public void setCreatedAt(LocalDateTime createdAt) {
-        this.createdAt = createdAt;
-    }
-
-    public LocalDateTime getExpiresAt() {
-        return expiresAt;
-    }
-
-    public void setExpiresAt(LocalDateTime expiresAt) {
-        this.expiresAt = expiresAt;
-    }
 }

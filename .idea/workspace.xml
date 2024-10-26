@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbdf6ac4-3a81-45a3-950e-b8616276cfe8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/SystemDesign/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/SystemDesign/URLShortnerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/SystemDesign/controller/URLController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/SystemDesign/model/URL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/SystemDesign/repository/URLRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/SystemDesign/service/URLService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/remote-targets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/local/local-postgre-docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/SystemDesign/controller/URLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/SystemDesign/controller/URLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/SystemDesign/model/URL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/SystemDesign/entity/URL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/SystemDesign/repository/URLRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/SystemDesign/repository/URLRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/SystemDesign/service/URLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/SystemDesign/service/URLService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,18 +41,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.URLShortnerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.URLShortnerApplication.executor": "Run",
+    "JUnit.URLServiceTest.executor": "Run",
+    "JUnit.URLShortenerApplicationTest.executor": "Run",
+    "JUnit.URLShortenerApplicationTest.testShortenUrl_NewUrl_GeneratesShortenedUrl.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/rishabh/spring-url-shortner",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.SystemDesign" />
+      <recent name="org.SystemDesign.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.URLShortenerApplicationTest.testShortenUrl_NewUrl_GeneratesShortenedUrl">
     <configuration name="URLShortnerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../.sdkman/candidates/java/22.0.2-oracle" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.SystemDesign.URLShortnerApplication" />
       <module name="URLShortner" />
       <extension name="coverage">
@@ -67,9 +78,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="URLShortenerApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="URLShortner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.SystemDesign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.SystemDesign" />
+      <option name="MAIN_CLASS_NAME" value="org.SystemDesign.URLShortenerApplicationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URLShortenerApplicationTest.testShortenUrl_NewUrl_GeneratesShortenedUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="URLShortner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.SystemDesign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.SystemDesign" />
+      <option name="MAIN_CLASS_NAME" value="org.SystemDesign.URLShortenerApplicationTest" />
+      <option name="METHOD_NAME" value="testShortenUrl_NewUrl_GeneratesShortenedUrl" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.URLShortenerApplicationTest.testShortenUrl_NewUrl_GeneratesShortenedUrl" />
         <item itemvalue="Application.URLShortnerApplication" />
+        <item itemvalue="JUnit.URLShortenerApplicationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -83,5 +127,15 @@
       <updated>1729098122781</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
